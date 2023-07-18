@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DA - Tools by Skilin</title>
+
+    <!--
+        - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/svg+xml">
+
+    <!--
+        - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!--
+        - custom css link
+    -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="customInput.css">
+    
+</head>
+<body>
+    <header>
+        <h2 class="heading">Willkommen!</h2>
+    </header>
+    <main>
+        <section class="loopSplitter">
+            <div class="input-wrapper">
+                <label class="text">
+                    <input required type="number" id="loopterSplitter-number">
+                    <label class="label">Nummer</label>
+                </label>
+                <label class="text">
+                    <input required type="text" id="loopterSplitter-string">
+                    <label class="label">String (&i für Zähler Variable)</label>
+                </label>
+                <button id="loopSplitter-submit">Generieren</button>
+            </div>
+            <div class="output-container">
+                <textarea class="output-wrapper" readonly></textarea>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
